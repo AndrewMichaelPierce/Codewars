@@ -9,5 +9,8 @@ function century(year) {
             m++;
         }
     }
+    console.log(m)
     return m;
 }
+
+century(2001)

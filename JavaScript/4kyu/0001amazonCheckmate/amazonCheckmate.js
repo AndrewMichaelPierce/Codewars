@@ -361,6 +361,7 @@ let kata = {
         result.push(gameRules.check.sum);
         result.push(gameRules.stalemate.sum);
         result.push(gameRules.safe.sum);
+        console.log(result);
         return result;
     },
     resetkata: function () {
@@ -383,6 +384,8 @@ function amazonCheckmate(king, amazon) {
     kata.kingEvaluation(king, amazon);
     return kata.result();
 }
+
+amazonCheckmate(21, 23)
 
 /*
 Status: Solved
