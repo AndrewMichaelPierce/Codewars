@@ -1,6 +1,6 @@
 def main():
     def men_from_boys(arr):
-        # Sorts arr into even and odd arrays, sorts even: low to high, odd: high to low, kills doubles
+        # Sorts arr into even and odd arrays, sorts even: low to high, odd: high to low, combines, kills doubles
         evenArray = []
         oddArray = []
         for i in arr:
