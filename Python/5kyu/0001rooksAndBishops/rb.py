@@ -53,5 +53,21 @@ def main():
                 for column in range(8):
                         for row in range(8):
                             if chessboard[column][row] > 0:
-                                rook.append()
+                                rook.append(str((column + 2) + (row + 1)))
+                                activePosition[(column + 2) + (row + 1)] = "R"
+                                whiteInfluence[(column + 2) + (row + 1)] = "x"
+                            elif chessboard[column][row] < 0:
+                                bishop.append(str((column + 2) + (row + 1)))
+                                activePosition[(column + 2) + (row + 1)] = "B"
+                                whiteInfluence[(column + 2) + (row + 1)] = "x"
+
+        def rookPositions(rookArray):
+            for location in rookArray:
+                if location + 10 == activePosition[location + 10]:
+                    whiteInfluence[location + 10] = "x"
+                else:
+                    break
+                for
+
+
 
