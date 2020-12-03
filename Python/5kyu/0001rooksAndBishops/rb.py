@@ -50,24 +50,105 @@ def main():
         ]
 
         def findPiece(chessboard):
-                for column in range(8):
-                        for row in range(8):
-                            if chessboard[column][row] > 0:
-                                rook.append(str((column + 2) + (row + 1)))
-                                activePosition[(column + 2) + (row + 1)] = "R"
-                                whiteInfluence[(column + 2) + (row + 1)] = "x"
-                            elif chessboard[column][row] < 0:
-                                bishop.append(str((column + 2) + (row + 1)))
-                                activePosition[(column + 2) + (row + 1)] = "B"
-                                whiteInfluence[(column + 2) + (row + 1)] = "x"
+            for column in range(8):
+                for row in range(8):
+                    if chessboard[column][row] > 0:
+                        rook.append(str(((column + 2) * 10) + (row + 1)))
+                        activePosition[((column + 2) * 10) + (row + 1)] = "R"
+                        whiteInfluence[((column + 2) * 10) + (row + 1)] = "x"
+                    elif chessboard[column][row] < 0:
+                        bishop.append(str(((column + 2) * 10) + (row + 1)))
+                        activePosition[((column + 2) * 10) + (row + 1)] = "B"
+                        whiteInfluence[((column + 2) * 10) + (row + 1)] = "x"
 
-        def rookPositions(rookArray):
-            for location in rookArray:
+        def rookPositions(rookLocation):
+            location = int(rookLocation)
+            while location == blankBoard[location]:
                 if location + 10 == activePosition[location + 10]:
                     whiteInfluence[location + 10] = "x"
                 else:
                     break
-                for
+                location += 10
+            location = int(rookLocation)
+            while location == blankBoard[location]:
+                if location - 10 == activePosition[location - 10]:
+                    whiteInfluence[location - 10] = "x"
+                else:
+                    break
+                location -= 10
+            location = int(rookLocation)
+            while location == blankBoard[location]:
+                if location + 1 == activePosition[location + 1]:
+                    whiteInfluence[location + 1] = "x"
+                else:
+                    break
+                location += 1
+            location = int(rookLocation)
+            while location == blankBoard[location]:
+                if location - 1 == activePosition[location - 1]:
+                    whiteInfluence[location - 1] = "x"
+                else:
+                    break
+                location -= 1
 
+        def bishopPositions(bishopLocation):
+            location = int(bishopLocation)
+            while location == blankBoard[location]:
+                if location + 11 == activePosition[location + 11]:
+                    whiteInfluence[location + 11] = "x"
+                else:
+                    break
+                location += 11
+            location = int(bishopLocation)
+            while location == blankBoard[location]:
+                if location - 11 == activePosition[location - 11]:
+                    whiteInfluence[location - 11] = "x"
+                else:
+                    break
+                location -= 11
+            location = int(bishopLocation)
+            while location == blankBoard[location]:
+                if location + 9 == activePosition[location + 9]:
+                    whiteInfluence[location + 9] = "x"
+                else:
+                    break
+                location += 9
+            while location == blankBoard[location]:
+                if location - 9 == activePosition[location - 9]:
+                    whiteInfluence[location - 9] = "x"
+                else:
+                    break
+                location -= 9
 
+        def calculateInfluence():
+            for piece in range(len(rook)):
+                rookPositions(rook[piece])
+            for piece in range(len(bishop)):
+                bishopPositions(bishop[piece])
 
+        def countUnattacked(influenceBoard):
+            squareLocation = 21
+            result = 0
+            while squareLocation < 99:
+                if influenceBoard[squareLocation] != "x" and influenceBoard[squareLocation] != 200:
+                    result += 1
+                squareLocation += 1
+            return result
+
+        findPiece(chessboard)
+        calculateInfluence()
+        result = countUnattacked(whiteInfluence)
+        return result
+
+    bishops_and_rooks([
+ [1,0,0,0,0,0,0,0],
+ [0,0,0,0,0,0,0,0],
+ [0,-1,0,0,0,0,0,0],
+ [0,0,0,0,0,0,0,0],
+ [0,0,0,0,0,0,0,0],
+ [0,0,0,0,0,0,0,0],
+ [0,0,0,0,0,0,0,0],
+ [0,0,0,0,0,0,0,0]])
+
+if __name__ == "__main__":
+    main()
