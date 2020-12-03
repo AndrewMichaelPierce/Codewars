@@ -138,6 +138,7 @@ def main():
         findPiece(chessboard)
         calculateInfluence()
         result = countUnattacked(whiteInfluence)
+        print(result)
         return result
 
     bishops_and_rooks([
@@ -150,5 +151,8 @@ def main():
  [0,0,0,0,0,0,0,0],
  [0,0,0,0,0,0,0,0]])
 
+
 if __name__ == "__main__":
     main()
+
+# Status: Solved
