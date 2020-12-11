@@ -5,6 +5,7 @@ def main():
             isOdd = True
         while N != P:
             P += 1
+            N += 2
         if isOdd:
             if (P + 1) % 4 == 0:
                 return "Black", N + 1
