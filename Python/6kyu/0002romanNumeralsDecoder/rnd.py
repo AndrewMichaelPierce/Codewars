@@ -19,6 +19,7 @@ def main():
             else:
                 result += vars()[roman[numeral]]
             numeral += 1
+        print(result)
         return result
     solution("IV")
 
