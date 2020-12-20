@@ -1,9 +1,16 @@
 def main():
     def speedify(st):
+        biggest = 0
+        result = []
         for letter in st:
-
-        print(ord(st))
-        pass
+            if ord(letter) > biggest:
+                biggest = ord(letter)
+        for index in range(biggest):
+            result.append(" ")
+        for letter in st:
+            letterValue = ord(letter) - 64
+            result[letterValue] = letter
+        print(result.join())
     speedify("A")
 
 
