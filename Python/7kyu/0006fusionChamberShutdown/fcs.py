@@ -15,7 +15,7 @@ def main():
             c -= 1
             h -= 4
             CH4 += 1
-        print(f"Water - H2O: {H2O}, Carbon Dioxide - CO2: {CO2}, Methane - CH4: {CH4}")
+        print(f"         Water (H2O): {H2O}\nCarbon Dioxide (CO2): {CO2}\n       Methane (CH4): {CH4}")
         return H2O, CO2, CH4
 
     burner(354, 1023230, 0)
