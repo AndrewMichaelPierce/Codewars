@@ -27,5 +27,5 @@ function isPrime(num, end) {
 }
 
 
-isPrime(5000, 10000);
+isPrime(10000, 15000);
 console.log(percent);
