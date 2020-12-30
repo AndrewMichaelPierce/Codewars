@@ -19,12 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1a23e65c-3047-4870-a25d-89551122db51" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="f99201f8-357d-48c5-8d76-9b18deff5ebc" name="Default Changelist" comment="c#" />
+>>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="JupyterTrust" id="51d57bc2-5041-4043-acf7-5c7dd232d2e7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="TaskManager">
@@ -44,5 +49,247 @@
     <SUITE FILE_PATH="coverage/Codewars$rnd.coverage" NAME="rnd Coverage Results" MODIFIED="1607671160897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/6kyu/0002romanNumeralsDecoder" />
     <SUITE FILE_PATH="coverage/Codewars$rb.coverage" NAME="rb Coverage Results" MODIFIED="1606962427133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/5kyu/0001rooksAndBishops" />
     <SUITE FILE_PATH="coverage/Codewars$bcc.coverage" NAME="bcc Coverage Results" MODIFIED="1608147584402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/6kyu/0003breadCamelCase" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="fb1fbb0a-8a48-4bc8-953d-c613ad9dd69b" />
+  <component name="ProjectId" id="1kzkDgtNXCQD3tnrVwFf8Vv2lkv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Python.fcs">
+    <configuration name="fcs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/7kyu/0006fusionChamberShutdown" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/7kyu/0006fusionChamberShutdown/fcs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/8kyu/0001multiplicationTableForNumber" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/8kyu/0001multiplicationTableForNumber/mt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/7kyu/0005theSpeedOfLetters" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/7kyu/0005theSpeedOfLetters/sl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fcs" />
+        <item itemvalue="Python.sl" />
+        <item itemvalue="Python.mt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f99201f8-357d-48c5-8d76-9b18deff5ebc" name="Default Changelist" comment="" />
+      <created>1606710689797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606710689797</updated>
+      <workItem from="1606710690987" duration="5374000" />
+      <workItem from="1607304575466" duration="647000" />
+      <workItem from="1608044023068" duration="33000" />
+      <workItem from="1608044075938" duration="4000" />
+      <workItem from="1608522321230" duration="1385000" />
+      <workItem from="1608574841341" duration="4732000" />
+      <workItem from="1609292986491" duration="2289000" />
+    </task>
+    <task id="LOCAL-00001" summary="codewars Challenges">
+      <created>1606718229790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606718229790</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comment ammended">
+      <created>1606718618622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606718618622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="kata solved">
+      <created>1608536614253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608536614253</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kata solved">
+      <created>1608536647641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608536647641</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kata solved">
+      <created>1608578418262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608578418262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kata solved">
+      <created>1608578658934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608578658934</updated>
+    </task>
+    <task id="LOCAL-00007" summary="is square in an multi-dimensional array">
+      <created>1608602126175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608602126175</updated>
+    </task>
+    <task id="LOCAL-00008" summary="c#">
+      <created>1609293232318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609293232318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="codewars Challenges" />
+    <MESSAGE value="comment ammended" />
+    <MESSAGE value="kata solved" />
+    <MESSAGE value="is square in an multi-dimensional array" />
+    <MESSAGE value="c#" />
+    <option name="LAST_COMMIT_MESSAGE" value="c#" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1608602133134">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1606719310153" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608602133134" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608536933315" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1608602133134">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1606719310153" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608602133134" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608536933314" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1608602133134">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1606719310153" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608602133134" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608536933314" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1608602133134">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1606719310153" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608602133134" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608536933314" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1609293234595">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609293234595" />
+    <state x="2472" y="260" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1606718620101" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608602127615" />
+    <state x="2472" y="260" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608536652749" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609296217068">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609296217068" />
+    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1607304589470" />
+    <state x="2697" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1608522424936" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Codewars$mt.coverage" NAME="mt Coverage Results" MODIFIED="1606712083305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/8kyu/0001multiplicationTableForNumber" />
+    <SUITE FILE_PATH="coverage/Codewars$sl.coverage" NAME="sl Coverage Results" MODIFIED="1608536669802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/7kyu/0005theSpeedOfLetters" />
+    <SUITE FILE_PATH="coverage/Codewars$fcs.coverage" NAME="fcs Coverage Results" MODIFIED="1608578636467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/7kyu/0006fusionChamberShutdown" />
+>>>>>>> origin/main
   </component>
 </project>

@@ -1,0 +1,11 @@
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\bin\Debug\netcoreapp3.1\cs0001describeTheShape.exe
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\bin\Debug\netcoreapp3.1\cs0001describeTheShape.deps.json
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\bin\Debug\netcoreapp3.1\cs0001describeTheShape.runtimeconfig.json
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\bin\Debug\netcoreapp3.1\cs0001describeTheShape.runtimeconfig.dev.json
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\bin\Debug\netcoreapp3.1\cs0001describeTheShape.dll
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\bin\Debug\netcoreapp3.1\cs0001describeTheShape.pdb
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\obj\Debug\netcoreapp3.1\cs0001describeTheShape.csprojAssemblyReference.cache
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\obj\Debug\netcoreapp3.1\cs0001describeTheShape.AssemblyInfoInputs.cache
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\obj\Debug\netcoreapp3.1\cs0001describeTheShape.AssemblyInfo.cs
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\obj\Debug\netcoreapp3.1\cs0001describeTheShape.dll
+C:\Users\Omtaga\PycharmProjects\Codewars\C#\7kyu\cs0001describeTheShape\cs0001describeTheShape\obj\Debug\netcoreapp3.1\cs0001describeTheShape.pdb
