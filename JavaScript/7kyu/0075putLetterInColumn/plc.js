@@ -14,4 +14,4 @@ function buildRowText(index, character) {
 
 buildRowText(2, "A");
 
-// Status: Solved
+// Status: Solved.
