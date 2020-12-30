@@ -1,0 +1,32 @@
+Index: C#/7kyu/0001describeTheShape/dts.cs
+===================================================================
+--- C#/7kyu/0001describeTheShape/dts.cs	(revision 485d826ead7dbf5fb4ff4ff8691eb356da6648e7)
++++ C#/7kyu/0001describeTheShape/dts.cs	(revision 485d826ead7dbf5fb4ff4ff8691eb356da6648e7)
+@@ -1,27 +0,0 @@
+-using System;
+-
+-public static class Kata
+-{
+-  public static string DescribeTheShape(int angles)
+-  {
+-    /*
+-    if (angles <= 2)
+-    {
+-      return "this will be a line segment or a dot";
+-    }
+-    else
+-    {
+-      let degree = Math.floor((angles - 2) * 180) / angles));
+-      Console.WriteLine("Hello World");
+-      return ($"This shape has {angles} sides and each angle measures {degree}");
+-    }
+-    */
+-    Console.WriteLine("Hello World");
+-    throw new NotImplementedException();
+-  }
+-}
+-
+-Kata.DescribeTheShape(3);
+-
+-// test
+-
